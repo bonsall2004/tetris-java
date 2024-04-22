@@ -24,6 +24,7 @@ public class PlayManager {
   Tetromino currentTetromino;
   Tetromino nextTetromino;
 
+
   public PlayManager() {
     left_x = (TetrisPanel.WIDTH / 2) - (WIDTH / 2);
     right_x = left_x + WIDTH;
